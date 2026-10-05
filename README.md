@@ -15,4 +15,4 @@ mix test
 
 ## Licence
 
-The licence is not stated.
+This repository carries no LICENSE yet. Both upstreams are Apache-2.0, so the ported code is under Apache-2.0 terms, and a LICENSE and NOTICE belong here.
