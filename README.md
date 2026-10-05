@@ -1,32 +1,18 @@
-# Enet
+# interactor-elixir-enet
 
-**TODO: Add description**
+An Elixir implementation of the ENet reliable UDP protocol, with DTLS, ported from Erlang.
 
-Repository: [https://github.com/V-Sekai-fire/elixir-enet](https://github.com/V-Sekai-fire/elixir-enet)
+## What it is for
 
-## Acknowledgments
+Hosts and peers run as supervised processes and send reliable, unreliable and unsequenced packets over numbered channels. It is ported from [flambard/enet](https://github.com/flambard/enet) by way of the DTLS work in [dragonhunt02/enet-godot](https://github.com/dragonhunt02/enet-godot).
 
-This project is based on and extends the work from the following upstream repositories:
+## Build and run
 
-- [dragonhunt02/enet-godot](https://github.com/dragonhunt02/enet-godot/tree/dtls-pr-ok) - ENet Godot implementation in Erlang/OTP
-- [flambard/enet](https://github.com/flambard/enet) - Original ENet implementation in Erlang/OTP
-
-Special thanks to the maintainers and contributors of these projects.
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `enet` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:enet, "~> 0.1.0"}
-  ]
-end
+```sh
+mix deps.get
+mix test
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/enet>.
+## Licence
 
+The licence is not stated.
